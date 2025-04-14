@@ -1,0 +1,123 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* Header and logo */
+header {
+  background-color: #111;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.logo {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #e0e0e0;
+  color: #1a1a1a;
+  border-radius: 6px;
+}
+
+/* Main content */
+main {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* List for Locations */
+main ul {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+main ul li a {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+main ul li a:hover {
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+}
+
+/* List for Locations */
+main ul {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+main ul li a {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+main ul li a:hover {
+  color: #ffffff;
+}
